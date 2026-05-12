@@ -53,13 +53,13 @@ Linear-QuadraticProbing-Hash-Tablosu-master/
 3.  ▶️ Projeyi derleyin ve çalıştırın.
 4.  🖥️ Konsol çıktısında her iki yöntemin hash tablosu üzerindeki dağılımını inceleyin.
 
-## 📄 Lisans
+## 📜 Lisans
 
-Bu proje, [LICENSE](LICENSE ) dosyasında belirtilen lisans koşulları altında yayınlanmıştır.
+Bu proje **MIT License** ile lisanslanmıştır. Detaylı bilgi için `LICENSE` dosyasını inceleyebilirsiniz.
 
-## 👨‍💻 Geliştirici
+## 👩‍💻 Geliştirici
 
-**Şilan Pehlivan**
+Şilan Pehlivan
 
 
 
