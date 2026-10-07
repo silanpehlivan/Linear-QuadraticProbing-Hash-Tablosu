@@ -24,6 +24,18 @@ Hash tablosundaki çakışmaları doğrusal ve karesel yoklama yöntemleriyle el
 
 C# · Hash Table
 
+## Teknik yaklaşım
+
+Division Method ile ilk indeks hesaplanır; çakışma durumunda linear veya quadratic probing uygulanır. Aynı girdinin iki yerleştirme stratejisindeki dağılımı karşılaştırılabilir.
+
+## Kodu incelemeye başlayın
+
+- [Program.cs](Program.cs)
+
+## Kapsam ve sınırlar
+
+Tablo boyutu ve doluluk oranı sonucu etkiler; yöntem karşılaştırması bir üretim performans benchmark’ı değildir.
+
 <details>
 <summary><strong>Kurulum, kullanım ve teknik ayrıntılar</strong></summary>
 
