@@ -2,17 +2,32 @@
 
 # Hash Table Analysis
 
-**Linear & Quadratic Probing**
+### Bir çakışma, iki farklı çözüm.
 
-![C#](https://img.shields.io/badge/C%23-2563eb?style=flat-square)
-![Hash Table](https://img.shields.io/badge/Hash%20Table-0891b2?style=flat-square)
-[![MIT License](https://img.shields.io/badge/License-MIT-16a34a?style=flat-square)](LICENSE)
+![C#](https://img.shields.io/badge/C%23-2563eb?style=for-the-badge)
+![Hash Table](https://img.shields.io/badge/Hash%20Table-0891b2?style=for-the-badge)
+[![MIT](https://img.shields.io/badge/MIT-16a34a?style=for-the-badge)](LICENSE)
 
 Hash tablosundaki çakışmaları doğrusal ve karesel yoklama yöntemleriyle ele alan konsol uygulaması.
+
+**Linear & Quadratic Probing**
+
+[Projeyi keşfet](https://github.com/silanpehlivan/Linear-QuadraticProbing-Hash-Tablosu/tree/master) · [Kurulum ve ayrıntılar](#projeyi-çalıştırmak-ve-incelemek)
 
 </div>
 
 ---
+
+## İçeride neler var?
+
+- **01** · Açık adresleme ile çakışma yönetimi
+- **02** · Division Method ile indeks hesaplama
+- **03** · İki yöntemin tablo dağılımlarını karşılaştırma
+
+## Projeyi çalıştırmak ve incelemek
+
+<details>
+<summary><strong>Kurulum, kod yapısı ve teknik notları aç</strong></summary>
 
 ## Öne Çıkanlar
 
@@ -24,20 +39,19 @@ Hash tablosundaki çakışmaları doğrusal ve karesel yoklama yöntemleriyle el
 
 C# · Hash Table
 
-## Teknik yaklaşım
+### Teknik yaklaşım
 
 Division Method ile ilk indeks hesaplanır; çakışma durumunda linear veya quadratic probing uygulanır. Aynı girdinin iki yerleştirme stratejisindeki dağılımı karşılaştırılabilir.
 
-## Kodu incelemeye başlayın
+### Kodu incelemeye başlayın
 
 - [Program.cs](Program.cs)
 
-## Kapsam ve sınırlar
+### Kapsam ve sınırlar
 
 Tablo boyutu ve doluluk oranı sonucu etkiler; yöntem karşılaştırması bir üretim performans benchmark’ı değildir.
 
-<details>
-<summary><strong>Kurulum, kullanım ve teknik ayrıntılar</strong></summary>
+
 
 Bu proje, bir **Hash Tablosu (Karma Tablo)** yapısı üzerinde veri depolama ve çakışma durumlarında kullanılan **Doğrusal Yoklama (Linear Probing)** ve **Karesel Yoklama (Quadratic Probing)** yöntemlerinin işleyişini incelemek amacıyla geliştirilmiş bir **C# konsol uygulamasıdır**.
 
@@ -91,6 +105,8 @@ Linear-QuadraticProbing-Hash-Tablosu-master/
 2.   Visual Studio ile `Ödev10.sln` dosyasını açın.
 3.   Projeyi derleyin ve çalıştırın.
 4.   Konsol çıktısında her iki yöntemin hash tablosu üzerindeki dağılımını inceleyin.
+
+
 
 
 </details>
